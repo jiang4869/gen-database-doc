@@ -1,0 +1,11 @@
+datasource:
+  username: root
+  password: 123456
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  type: mysql
+  address: 192.168.253.100
+  port: 3306
+  dbname: blog
+
+gorm:
+  table_prefix: blog_
