@@ -12,8 +12,11 @@ datasource:
   dbname: blog # 数据库名
 
 gorm:
-  table_prefix: blog_ # 设置表前缀
+  table_prefix: blog_ # 设置表前缀,如果没有，则放空
 ```
+
+如果没有golang环境的话，可以直接使用根目录下的`main.exe`可执行程序直接运行。
+
 安装依赖
 ```shell
 go mod tidy
